@@ -1,5 +1,5 @@
 require_relative "spec_helper"
-require_relative "./spec/while_spec.rb"
+require_relative "..lib/while.rb"
 
 describe "#using_until" do
 	it "puts out the phrase 'Wingardium Leviosa' until the levitation force is incremented to 10" do
